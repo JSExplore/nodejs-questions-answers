@@ -10,11 +10,10 @@ Some common node.js questions and answers.
 - D: http
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
-`process` is one of the node global object. Global objects are globally accessible. These are, <b>__dirname</b>, <b>__filename</b>, <b>module</b>, <b>process</b>, <b>setTimeout</b>, <b>setInterval</b>, <b>setImmediate</b>.
+`process` is one of the node global object. Global objects are globally accessible. These are, <b>**dirname</b>, <b>**filename</b>, <b>module</b>, <b>process</b>, <b>setTimeout</b>, <b>setInterval</b>, <b>setImmediate</b>.
 
 </details>
 
@@ -26,7 +25,6 @@ Some common node.js questions and answers.
 - D: dns
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -42,7 +40,6 @@ Some common node.js questions and answers.
 - D: debug
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -58,7 +55,6 @@ Some common node.js questions and answers.
 - D: tls
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: A
 
@@ -74,7 +70,6 @@ Some common node.js questions and answers.
 - D: fs.get
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -89,7 +84,6 @@ Some common node.js questions and answers.
 - C: encrypt
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: A
 
@@ -104,7 +98,6 @@ Some common node.js questions and answers.
 - C: stop
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: B
 
@@ -120,7 +113,6 @@ Some common node.js questions and answers.
 - D: process
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -136,7 +128,6 @@ Some common node.js questions and answers.
 - D: node -use--strict
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -152,7 +143,6 @@ Some common node.js questions and answers.
 - D: .find
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: D
 
@@ -168,7 +158,6 @@ Some common node.js questions and answers.
 - D: require
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: A
 
@@ -178,13 +167,12 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 
 ###### 12. How can you get the file name(with the directory) that you are working on?
 
-- A: console.log(__dirname)
+- A: console.log(\_\_dirname)
 - B: console.log(filename)
-- C: console.log(__filename)
+- C: console.log(\_\_filename)
 - D: console.log(filename)
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -199,7 +187,6 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - C: require.find(x)
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: B
 
@@ -215,7 +202,6 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - D: .execPath
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -225,13 +211,12 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 
 ###### 15. How can you get absolute path for a specific file app.js?
 
-- A: __filename('app.js')
+- A: \_\_filename('app.js')
 - B: path.absolute('app.js')
 - C: path.resolve('app.js')
-- D: __dirname('app.js')
+- D: \_\_dirname('app.js')
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: C
 
@@ -247,7 +232,6 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - D: version()
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: D
 
@@ -263,7 +247,6 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - D: all
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: D
 
@@ -279,7 +262,6 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - D: lookup()
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: A
 
@@ -295,7 +277,6 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - D: process.argv
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: D
 
@@ -310,16 +291,29 @@ All objects that emit events are instances of the EventEmitter class. `process` 
 - C: const { readFile } = require('promises')
 
 <details><summary><b>Answer</b></summary>
-<p>
 
 #### Answer: A
 
 `const { readFile } = require('fs').promises`, by using this you can make readFile a promise based method.
 
 ```js
-readFile('./file.txt', { encoding: 'utf8' })
+readFile("./file.txt", { encoding: "utf8" })
   .then((data) => console.log(data))
   .catch((error) => console.error(error));
 ```
+
+</details>
+
+###### 21: Which one provides Event Loop?
+
+- A: V8
+- B: Libuv
+- C: C++ bindings
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: B
+
+Libuv library provides event loop.
 
 </details>
