@@ -317,3 +317,19 @@ readFile("./file.txt", { encoding: "utf8" })
 Libuv library provides event loop.
 
 </details>
+
+
+###### 22: APIs of Node.JS are 
+
+- A: Asynchronous
+- B: Synchronous
+- C: Both of the above
+- D: None of the above
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+APIs of Node.JS are Asynchronous and Synchronous.
+
+</details>
