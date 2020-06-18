@@ -330,6 +330,6 @@ Libuv library provides event loop.
 
 #### Answer: C
 
-APIs of Node.JS are Asynchronous and Synchronous
+APIs of Node.JS are Asynchronous and Synchronous.
 
 </details>
