@@ -318,7 +318,6 @@ Libuv library provides event loop.
 
 </details>
 
-
 ###### 22: APIs of Node.JS are 
 
 - A: Asynchronous
@@ -331,5 +330,20 @@ Libuv library provides event loop.
 #### Answer: C
 
 APIs of Node.JS are Asynchronous and Synchronous.
+
+</details>
+
+###### 23: Which module is used to decode Buffer object into strings?
+
+- A: decoder
+- B: buffer
+- C: string_buffer
+- D: string_decoder
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+`string_decoder` is user to decode Buffer object into strings.
 
 </details>
