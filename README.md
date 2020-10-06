@@ -483,3 +483,18 @@ var http = require("http");
 
 Concurrency value and Task function are the main arguments that an asynchronous queue uses.
 </details>
+=======
+###### 24: Which method is used to get the filename part of a file path?
+
+- A: path.basename
+- B: path.dirname
+- C: path.parse
+- D: path.join
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: A
+
+`path.basename` is user to get the filename part of a file path.
+
+</details>
