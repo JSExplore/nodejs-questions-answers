@@ -344,7 +344,7 @@ APIs of Node.JS are Asynchronous and Synchronous.
 
 #### Answer: D
 
-`string_decoder` is user to decode Buffer object into strings.
+`string_decoder` is used to decode Buffer object into strings.
 
 </details>
 
@@ -358,13 +358,14 @@ APIs of Node.JS are Asynchronous and Synchronous.
 <details><summary><b>Answer</b></summary>
 
 #### Answer: D
+
 Example:
-```
-module.exports.bar = 'bar';
+
+```js
+module.exports.bar = "bar";
 ```
 
 </details>
-
 
 ###### 25: To execute the code of index.js which method should use?
 
@@ -381,7 +382,6 @@ module.exports.bar = 'bar';
 
 </details>
 
-
 ###### 26: Which module is used to serve static resources in Node.js?
 
 - A: require
@@ -396,7 +396,6 @@ module.exports.bar = 'bar';
 You can use `node-static` module to serve static resources. This module is an HTTP static-file server module with built-in caching.
 
 </details>
-
 
 ###### 27: How to install a package (my-package) in node js?
 
@@ -414,7 +413,6 @@ example: `npm install my-package`
 
 </details>
 
-
 ###### 28: Which one is used to create and consume custom events?
 
 - A: NodeEvent
@@ -427,14 +425,15 @@ example: `npm install my-package`
 #### Answer: B
 
 EventEmitter class lies in the events module. It can be accessible like this −
-```
-// Import events module
-  var events = require('events');
-// Create an eventEmitter object
-  var eventEmitter = new events.EventEmitter();
-```
-</details>
 
+```js
+// Import events module
+var events = require("events");
+// Create an eventEmitter object
+var eventEmitter = new events.EventEmitter();
+```
+
+</details>
 
 ###### 29: Valid form of route path in node.js?
 
@@ -448,8 +447,8 @@ EventEmitter class lies in the events module. It can be accessible like this −
 #### Answer: D
 
 You can use String, String pattern and regular expressions to form a route path.
-</details>
 
+</details>
 
 ###### 30: Which module is used to create a server?
 
@@ -464,11 +463,12 @@ You can use String, String pattern and regular expressions to form a route path.
 
 We use the http instance and call `http.createServer()` method to create a server instance
 example:
-```
+
+```js
 var http = require("http");
 ```
-</details>
 
+</details>
 
 ###### 31: Input arguments for an asynchronous queue?
 
@@ -482,9 +482,10 @@ var http = require("http");
 #### Answer: C
 
 Concurrency value and Task function are the main arguments that an asynchronous queue uses.
+
 </details>
-=======
-###### 24: Which method is used to get the filename part of a file path?
+
+###### 32: Which method is used to get the filename part of a file path?
 
 - A: path.basename
 - B: path.dirname
