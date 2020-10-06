@@ -348,6 +348,142 @@ APIs of Node.JS are Asynchronous and Synchronous.
 
 </details>
 
+###### 24: Which one is used to expose the node.js modules?
+
+- A: module
+- B: module.expose
+- C: exports
+- D: module.exports
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+Example:
+```
+module.exports.bar = 'bar';
+```
+
+</details>
+
+
+###### 25: To execute the code of index.js which method should use?
+
+- A: npm index.js
+- B: node.index.js
+- C: node index.js
+- D: npm run index.js
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+`node filepath` is used to run any file.
+
+</details>
+
+
+###### 26: Which module is used to serve static resources in Node.js?
+
+- A: require
+- B: node-resource
+- C: fs
+- D: node-static
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+You can use `node-static` module to serve static resources. This module is an HTTP static-file server module with built-in caching.
+
+</details>
+
+
+###### 27: How to install a package (my-package) in node js?
+
+- A: require my-package
+- B: node install my-package
+- C: npm install my-package
+- D: none of the above
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+To install any package in node js just run `npm install package-name` (available in npmjs.com).
+example: `npm install my-package`
+
+</details>
+
+
+###### 28: Which one is used to create and consume custom events?
+
+- A: NodeEvent
+- B: EventEmitter
+- C: Both of them
+- D: none of the above
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: B
+
+EventEmitter class lies in the events module. It can be accessible like this −
+```
+// Import events module
+  var events = require('events');
+// Create an eventEmitter object
+  var eventEmitter = new events.EventEmitter();
+```
+</details>
+
+
+###### 29: Valid form of route path in node.js?
+
+- A: Regular expressions
+- B: String
+- C: String patterns
+- D: All of them
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+You can use String, String pattern and regular expressions to form a route path.
+</details>
+
+
+###### 30: Which module is used to create a server?
+
+- A: fs
+- B: http
+- C: server
+- D: none of the above
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: B
+
+We use the http instance and call `http.createServer()` method to create a server instance
+example:
+```
+var http = require("http");
+```
+</details>
+
+
+###### 31: Input arguments for an asynchronous queue?
+
+- A: Task function
+- B: Concurrency value
+- C: Both of them
+- D: None of the above
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+Concurrency value and Task function are the main arguments that an asynchronous queue uses.
+</details>
+=======
 ###### 24: Which method is used to get the filename part of a file path?
 
 - A: path.basename
