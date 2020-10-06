@@ -318,7 +318,7 @@ Libuv library provides event loop.
 
 </details>
 
-###### 22: APIs of Node.JS are 
+###### 22: APIs of Node.JS are
 
 - A: Asynchronous
 - B: Synchronous
@@ -345,5 +345,20 @@ APIs of Node.JS are Asynchronous and Synchronous.
 #### Answer: D
 
 `string_decoder` is user to decode Buffer object into strings.
+
+</details>
+
+###### 24: Which method is used to get the filename part of a file path?
+
+- A: path.basename
+- B: path.dirname
+- C: path.parse
+- D: path.join
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: A
+
+`path.basename` is user to get the filename part of a file path.
 
 </details>
