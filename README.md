@@ -499,3 +499,48 @@ Concurrency value and Task function are the main arguments that an asynchronous 
 `path.basename` is user to get the filename part of a file path.
 
 </details>
+
+###### 33: The $ npm ls statement is used to list down all the _____? 
+
+- A: Web application
+- B: nodejs sample modules
+- C: locally installed modules
+- D: package modules
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+The $ npm ls statement is used to list down all the locally installed modules.
+
+</details>
+
+###### 34: Which amongst the following mehtod is used to create instance of http module? 
+
+- A: `var http = require('http');`
+- B: `var http = new require('http');`
+- C: `var http = new http();`
+- D: None of these
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: A
+
+`var http = require('http');` is the methods of create instance of http module.
+
+</details>
+
+###### 35: The ______ core module is used to create a web server in `Node.js`.
+
+- A: `fs`
+- B: `url`
+- C: `connect`
+- D: `http`
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+The `http` core module is used to create a web server in `Node.js`
+
+</details>
