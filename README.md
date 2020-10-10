@@ -378,7 +378,7 @@ module.exports.bar = "bar";
 
 #### Answer: C
 
-`node filepath` is used to run any file.
+`node filepath` Is used to run any javascript file
 
 </details>
 
@@ -542,5 +542,65 @@ The $ npm ls statement is used to list down all the locally installed modules.
 #### Answer: D
 
 The `http` core module is used to create a web server in `Node.js`
+
+</details>
+
+###### 36: In which of the following areas, Node.js is not advised to be used?
+
+- A: Single Page Applications
+- B: JSON APIs based Applications
+- C: CPU intensive applications
+- D: Data Intensive Realtime Applications (DIRT)
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+It is not advisable to use `Node.js` for CPU intensive applications.
+
+</details>
+
+###### 37: Which of the following code gets length of a buffer buf?
+
+- A: buf.length
+- B: buf.size
+- C: buf.length()
+- D: buf.size()
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: A
+
+buf.length returns size of a node buffer in bytes.
+
+</details>
+
+###### 38: Which function is used to include modules in Node Js.
+
+- A: include();
+- B: require();
+- C: attach();
+- D: all
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: B
+
+`require();` function is used to include modules in Node Js.
+
+</details>
+
+###### 39: Which of the following is a GUI-based debugging tool for Node.js?
+
+- A: Core node debugger
+- B: Console
+- C: REPL
+- D: Node Inspector
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+Node Inspector is a debugger interface for `Node.js` applications that uses the Blink Developer Tools (formerly WebKit Web Inspector).
 
 </details>
