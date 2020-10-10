@@ -545,22 +545,7 @@ The `http` core module is used to create a web server in `Node.js`
 
 </details>
 
-###### 36: In which of the following areas, Node.js is not advised to be used?
-
-- A: Single Page Applications
-- B: JSON APIs based Applications
-- C: CPU intensive applications
-- D: Data Intensive Realtime Applications (DIRT)
-
-<details><summary><b>Answer</b></summary>
-
-#### Answer: C
-
-It is not advisable to use `Node.js` for CPU intensive applications.
-
-</details>
-
-###### 37: Which of the following code gets length of a buffer buf?
+###### 36: Which of the following code gets length of a buffer buf?
 
 - A: buf.length
 - B: buf.size
@@ -571,11 +556,11 @@ It is not advisable to use `Node.js` for CPU intensive applications.
 
 #### Answer: A
 
-buf.length returns size of a node buffer in bytes.
+`buf.length` returns size of a node buffer in bytes.
 
 </details>
 
-###### 38: Which function is used to include modules in Node Js.
+###### 37: Which function is used to include modules in Node Js.
 
 - A: include();
 - B: require();
@@ -590,7 +575,7 @@ buf.length returns size of a node buffer in bytes.
 
 </details>
 
-###### 39: Which of the following is a GUI-based debugging tool for Node.js?
+###### 38: Which of the following is a GUI-based debugging tool for Node.js?
 
 - A: Core node debugger
 - B: Console
