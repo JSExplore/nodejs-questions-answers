@@ -562,9 +562,9 @@ The `http` core module is used to create a web server in `Node.js`
 
 ###### 37: Which function is used to include modules in Node Js.
 
-- A: include();
-- B: require();
-- C: attach();
+- A: include()
+- B: require()
+- C: attach()
 - D: all
 
 <details><summary><b>Answer</b></summary>
@@ -587,5 +587,20 @@ The `http` core module is used to create a web server in `Node.js`
 #### Answer: D
 
 Node Inspector is a debugger interface for `Node.js` applications that uses the Blink Developer Tools (formerly WebKit Web Inspector).
+
+</details>
+
+###### 39: Which command is used to silence all process warnings including deprecations for app.js?
+
+- A: node app.js --trace-warnings
+- B: node app.js --no-deprecation
+- C: node app.js --no-warnings
+- D: node app.js --trace-deprecation
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: C
+
+`node app.js --no-warnings` is used to silence all process warnings including deprecations for app.js.
 
 </details>
