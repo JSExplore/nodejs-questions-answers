@@ -604,3 +604,18 @@ Node Inspector is a debugger interface for `Node.js` applications that uses the 
 `node app.js --no-warnings` is used to silence all process warnings including deprecations for app.js.
 
 </details>
+
+###### 40: Which method is used to convert path segments into string using the platform-specific separator as a delimiter?
+
+- A: path.join()
+- B: path.parse()
+- C: path.normalize()
+- D: path.format()
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: A
+
+`path.join()` method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path.
+
+</details>
