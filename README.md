@@ -619,3 +619,18 @@ Node Inspector is a debugger interface for `Node.js` applications that uses the 
 `path.join()` method joins all given path segments together using the platform-specific separator as a delimiter, then normalizes the resulting path.
 
 </details>
+
+###### 41: Which module is used to take advantage of multi-core systems?
+
+- A: os
+- B: dns
+- C: stream
+- D: cluster
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+`cluster` is used to take advantage of multi-core systems. As node.js runs as single threaded we can take advantage of multi-core systems using cluster module.
+
+</details>
