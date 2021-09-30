@@ -634,3 +634,63 @@ Node Inspector is a debugger interface for `Node.js` applications that uses the 
 `cluster` is used to take advantage of multi-core systems. As node.js runs as single threaded we can take advantage of multi-core systems using cluster module.
 
 </details>
+
+###### 42: Which of the following are Node.js streams types?
+
+- A: writable
+- B: transform
+- C: readable
+- D: all of the above
+
+<details><summary><b>Answer</b></summary>
+
+#### Answer: D
+
+There are four main types of <b>streams</b>` in `Node. js`: `readable`, `writable`, `duplex` and `transform`. Each stream is an eventEmitter instance that emits different events at several intervals.
+
+</details>
+
+###### 43: How to test if two nodes are equal?
+
+- A: isEqualNode()
+- B: equal()
+- C: ==
+- D: None of the above
+
+<details><module><b>Answer</b></module>
+
+#### Answer: A
+
+The Node. `isEqualNode()` method tests whether two nodes are equal.
+
+</details>
+
+###### 44: Third-party packages can be install/update/delete using __. 
+
+- A: Node.exe
+- B: Node Package Manager
+- C: module.exports
+- D: REPL
+
+<details><module><b>Answer</b></module>
+
+#### Answer: B
+
+Third-party packages can be install/update/delete using NPM (Node Package Manager)
+
+</details>
+
+###### 45: When you run JavaScript in a Node.js application, which element in a Node.js stack actually executes that JavaScript?
+
+- A: the libuv library
+- B: the VM (like V8 or Chakra)
+- C: the c-ares library
+- D: the repl module
+
+<details><module><b>Answer</b></module>
+
+#### Answer: B
+
+The VM element will executes when run a Node.js applications.
+
+</details>
