@@ -709,3 +709,18 @@ The VM element will executes when run a Node.js applications.
 Local is the default scope in the Node. js application.
 
 </details>
+
+###### 46: Which method of fs module is used to close a file?
+
+-   A: fs.close(fd, callback)
+-   B: fs.closeFile(fd, callback)
+-   C: fs.closePath(fd, callback)
+-   D: None of the above.
+
+<details><module><b>Answer</b></module>
+
+#### Answer: A
+
+fs.close(fd, callback) is the method which is used to close a file.
+
+</details>
