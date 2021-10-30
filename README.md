@@ -710,7 +710,7 @@ Local is the default scope in the Node. js application.
 
 </details>
 
-###### 46: Which method of fs module is used to close a file?
+###### 47: Which method of fs module is used to close a file?
 
 -   A: fs.close(fd, callback)
 -   B: fs.closeFile(fd, callback)
@@ -722,5 +722,35 @@ Local is the default scope in the Node. js application.
 #### Answer: A
 
 fs.close(fd, callback) is the method which is used to close a file.
+
+</details>
+
+###### 48: Which method of fs module is used to remove a directory?
+
+-   A: fs.deleteDirectory(path[, mode], callback)
+-   B: fs.rmdir(path, callback)
+-   C: fs.removeDirectory(path[, mode], callback)
+-   D: None of the above.
+
+<details><module><b>Answer</b></module>
+
+#### Answer: B
+
+fs.rmdir(path, callback) is the method which is used to remove a directory.
+
+</details>
+
+###### 49: Which of the following code gets length of a buffer buf?
+
+-   A: buf.length
+-   B: buf.size
+-   C: buf.length()
+-   D: buf.size()
+
+<details><module><b>Answer</b></module>
+
+#### Answer: A
+
+buf.length returns size of a node buffer in bytes.
 
 </details>
