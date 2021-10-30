@@ -739,3 +739,18 @@ fs.close(fd, callback) is the method which is used to close a file.
 fs.rmdir(path, callback) is the method which is used to remove a directory.
 
 </details>
+
+###### 49: Which of the following code gets length of a buffer buf?
+
+-   A: buf.length
+-   B: buf.size
+-   C: buf.length()
+-   D: buf.size()
+
+<details><module><b>Answer</b></module>
+
+#### Answer: A
+
+buf.length returns size of a node buffer in bytes.
+
+</details>
