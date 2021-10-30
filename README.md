@@ -754,3 +754,18 @@ fs.rmdir(path, callback) is the method which is used to remove a directory.
 buf.length returns size of a node buffer in bytes.
 
 </details>
+
+###### 50: Which of the following platforms does Node.js support?
+
+-   A: Windows
+-   B: Macintosh
+-   C: Unix/Linux
+-   D: All of the above.
+
+<details><module><b>Answer</b></module>
+
+#### Answer: D
+
+Node.js is supported on all of the above written operating systems.
+
+</details>
