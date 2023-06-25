@@ -1,6 +1,6 @@
 # NodeJS Questions & Answers
 
-Some common node.js questions and answers.
+Some common node.js questions and answers which will help you to test some basic knowledge of node.js.
 
 ###### 1. Which one is the node global object?
 
